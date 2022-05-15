@@ -1,0 +1,43 @@
+#titulo{
+    color: tomato;
+}
+p.texto{
+    color: slateblue;
+}
+p.especial{
+    color: mediumaquamarine;
+}
+
+div p{
+    color: aquamarine;
+}
+div h2, div h3 {
+    color: brown;
+}
+
+* {
+    font-size: 24px;
+    color: black;
+}
+/* comentarios para usar en css
+
+.color {
+    color: #000000;
+}
+
+.color{
+    color: rgb(255, 100, 20);
+}
+*/
+.color {
+    /* border: 5px black groove; */
+    border-style: solid;
+    border-color: blue;
+    border-radius: 2px;
+    border-width: 2em;
+}
+
+#fondo {
+    background-color: rgba(0, 0, 0);
+    opacity: 0.3;
+}
